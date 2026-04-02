@@ -20,13 +20,20 @@ const audioPlayer: AudioPlayer = {
     }
 }
 
-const { song:anotherSong, details } = audioPlayer;
+//const { song:anotherSong, details } = audioPlayer;
 
-const { author, year, } = details
+// const { author, year, } = details
 
 
-console.log(`Song: ${ anotherSong }`)
-console.log(`Details: ${ author } ${ year }`)
+// console.log(`Song: ${ anotherSong }`)
+// console.log(`Details: ${ author } ${ year }`)
+
+const [, , trunks = 'not found']: string[] = ['Goku', 'Vegeta'];
+
+
+console.log('Trunks: ', trunks)
+
+
 
 
 
