@@ -29,8 +29,6 @@ const audioPlayer: AudioPlayer = {
 // console.log(`Details: ${ author } ${ year }`)
 
 const [, , trunks = 'not found']: string[] = ['Goku', 'Vegeta'];
-
-
 console.log('Trunks: ', trunks)
 
 
