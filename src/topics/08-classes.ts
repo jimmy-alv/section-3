@@ -1,14 +1,9 @@
 export class Person {
-    public name: string;
-    public address: string;
-
-    constructor() {
-        this.name = 'Jaime'
-        this.address = 'Barranquilla'
-    }
+    
+    constructor( public name: string, public address: string ) {}
 }
 
 
-const me = new Person()
+const me = new Person("Jaime", "Barranquilla")
 
 console.log(me)
