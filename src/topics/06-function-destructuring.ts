@@ -18,8 +18,8 @@ interface TaxCalculationOptions {
     products: Product[];
 }
 
-const shoppingCart = [phone, tablet]
-const tax = 0.15
+// const shoppingCart = [phone, tablet]
+// const tax = 0.15
 
 
 export function taxCalculation(options: TaxCalculationOptions): [number, number] {
@@ -33,10 +33,10 @@ export function taxCalculation(options: TaxCalculationOptions): [number, number]
     return [total, total * tax]
 }
 
-const [total, taxes] = taxCalculation({
+/* const [total, taxes] = taxCalculation({
     products: shoppingCart,
     tax
 })
 
 console.log("Total: ", total)
-console.log("Tax: ", taxes)
+console.log("Tax: ", taxes) */
